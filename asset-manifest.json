@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ddca595.css",
-    "main.js": "/static/js/main.369250c4.js",
+    "main.js": "/static/js/main.d3672e9f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cycleshop.png": "/static/media/cycleshop.cc21a8c688b34655dc1b.png",
     "static/media/haan.png": "/static/media/haan.8424fce9636544c120f1.png",
@@ -10,9 +10,8 @@
     "static/media/Nykaa.png": "/static/media/Nykaa.6f2f5f66c5c3d04b3d69.png",
     "static/media/aboutpic.png": "/static/media/aboutpic.c994b95ace33ece36ade.png",
     "static/media/ecorethumbnail.png": "/static/media/ecorethumbnail.7db68e9c46fad8809da6.png",
-    "static/media/homePic.jpg": "/static/media/homePic.cbe17dbdf8f14cbdef02.jpg",
+    "static/media/Dipanshu verma.pdf": "/static/media/Dipanshu verma.23f46c9a497e0c5444ae.pdf",
     "static/media/dashboardthumbnail.png": "/static/media/dashboardthumbnail.8674b6e05bce3206672a.png",
-    "static/media/Dipanshu verma.pdf": "/static/media/Dipanshu verma.d26bdbbe8b03d377a7f0.pdf",
     "static/media/starrating.png": "/static/media/starrating.687b2b29ac28c05785d6.png",
     "static/media/quize-app.png": "/static/media/quize-app.ec2d6199831492a0ee8a.png",
     "static/media/todoimg.png": "/static/media/todoimg.083b1a9d50a31be3e21c.png",
@@ -33,11 +32,11 @@
     "static/media/bootstrap.png": "/static/media/bootstrap.b9d40f1d49fa0fc592b4.png",
     "index.html": "/index.html",
     "main.2ddca595.css.map": "/static/css/main.2ddca595.css.map",
-    "main.369250c4.js.map": "/static/js/main.369250c4.js.map",
+    "main.d3672e9f.js.map": "/static/js/main.d3672e9f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ddca595.css",
-    "static/js/main.369250c4.js"
+    "static/js/main.d3672e9f.js"
   ]
 }
