@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a05f6a4.css",
-    "main.js": "/static/js/main.2de956a3.js",
+    "main.css": "/static/css/main.f7f1efcb.css",
+    "main.js": "/static/js/main.6bb90bf4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cycleshop.png": "/static/media/cycleshop.cc21a8c688b34655dc1b.png",
     "static/media/haan.png": "/static/media/haan.8424fce9636544c120f1.png",
     "static/media/youtubeimg.png": "/static/media/youtubeimg.aae3aeb36cfde892567a.png",
     "static/media/travelapp2.png": "/static/media/travelapp2.5664a47c051bab26d3ff.png",
     "static/media/Nykaa.png": "/static/media/Nykaa.6f2f5f66c5c3d04b3d69.png",
-    "static/media/aboutpic.png": "/static/media/aboutpic.c994b95ace33ece36ade.png",
+    "static/media/aboutpic.png": "/static/media/aboutpic.542845e4c75ee3e57d40.png",
     "static/media/ecorethumbnail.png": "/static/media/ecorethumbnail.7db68e9c46fad8809da6.png",
     "static/media/Dipanshu verma.pdf": "/static/media/Dipanshu verma.23f46c9a497e0c5444ae.pdf",
     "static/media/dashboardthumbnail.png": "/static/media/dashboardthumbnail.8674b6e05bce3206672a.png",
@@ -31,12 +31,12 @@
     "static/media/javascript.png": "/static/media/javascript.24e770c96d0db6e60282.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.b9d40f1d49fa0fc592b4.png",
     "index.html": "/index.html",
-    "main.6a05f6a4.css.map": "/static/css/main.6a05f6a4.css.map",
-    "main.2de956a3.js.map": "/static/js/main.2de956a3.js.map",
+    "main.f7f1efcb.css.map": "/static/css/main.f7f1efcb.css.map",
+    "main.6bb90bf4.js.map": "/static/js/main.6bb90bf4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a05f6a4.css",
-    "static/js/main.2de956a3.js"
+    "static/css/main.f7f1efcb.css",
+    "static/js/main.6bb90bf4.js"
   ]
 }
