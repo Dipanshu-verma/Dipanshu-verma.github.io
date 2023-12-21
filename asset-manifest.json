@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7f1efcb.css",
-    "main.js": "/static/js/main.6bb90bf4.js",
+    "main.css": "/static/css/main.3c741650.css",
+    "main.js": "/static/js/main.39153e1d.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cycleshop.png": "/static/media/cycleshop.cc21a8c688b34655dc1b.png",
     "static/media/haan.png": "/static/media/haan.8424fce9636544c120f1.png",
@@ -31,12 +31,12 @@
     "static/media/javascript.png": "/static/media/javascript.24e770c96d0db6e60282.png",
     "static/media/bootstrap.png": "/static/media/bootstrap.b9d40f1d49fa0fc592b4.png",
     "index.html": "/index.html",
-    "main.f7f1efcb.css.map": "/static/css/main.f7f1efcb.css.map",
-    "main.6bb90bf4.js.map": "/static/js/main.6bb90bf4.js.map",
+    "main.3c741650.css.map": "/static/css/main.3c741650.css.map",
+    "main.39153e1d.js.map": "/static/js/main.39153e1d.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7f1efcb.css",
-    "static/js/main.6bb90bf4.js"
+    "static/css/main.3c741650.css",
+    "static/js/main.39153e1d.js"
   ]
 }
