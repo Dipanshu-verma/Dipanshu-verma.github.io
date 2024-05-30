@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3c741650.css",
-    "main.js": "/static/js/main.67a0e89f.js",
+    "main.js": "/static/js/main.9170fd7f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cycleshop.png": "/static/media/cycleshop.cc21a8c688b34655dc1b.png",
     "static/media/haan.png": "/static/media/haan.8424fce9636544c120f1.png",
@@ -32,11 +32,11 @@
     "static/media/bootstrap.png": "/static/media/bootstrap.b9d40f1d49fa0fc592b4.png",
     "index.html": "/index.html",
     "main.3c741650.css.map": "/static/css/main.3c741650.css.map",
-    "main.67a0e89f.js.map": "/static/js/main.67a0e89f.js.map",
+    "main.9170fd7f.js.map": "/static/js/main.9170fd7f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c741650.css",
-    "static/js/main.67a0e89f.js"
+    "static/js/main.9170fd7f.js"
   ]
 }
