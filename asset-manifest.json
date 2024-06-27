@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3c741650.css",
-    "main.js": "/static/js/main.9170fd7f.js",
+    "main.js": "/static/js/main.16ccbaf2.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/cycleshop.png": "/static/media/cycleshop.cc21a8c688b34655dc1b.png",
     "static/media/haan.png": "/static/media/haan.8424fce9636544c120f1.png",
@@ -9,8 +9,8 @@
     "static/media/travelapp2.png": "/static/media/travelapp2.5664a47c051bab26d3ff.png",
     "static/media/Nykaa.png": "/static/media/Nykaa.6f2f5f66c5c3d04b3d69.png",
     "static/media/Dv_profile.jpg": "/static/media/Dv_profile.4e3b29f8ed5d0b0cc957.jpg",
-    "static/media/Dipanshu-Verma-Resume.pdf.pdf": "/static/media/Dipanshu-Verma-Resume.pdf.d4e0f74799cb05a7e88c.pdf",
     "static/media/ecorethumbnail.png": "/static/media/ecorethumbnail.7db68e9c46fad8809da6.png",
+    "static/media/Dipanshu-Verma-Resume.pdf.pdf": "/static/media/Dipanshu-Verma-Resume.pdf.253e69ed8d3b375b6df9.pdf",
     "static/media/dashboardthumbnail.png": "/static/media/dashboardthumbnail.8674b6e05bce3206672a.png",
     "static/media/starrating.png": "/static/media/starrating.687b2b29ac28c05785d6.png",
     "static/media/quize-app.png": "/static/media/quize-app.ec2d6199831492a0ee8a.png",
@@ -32,11 +32,11 @@
     "static/media/bootstrap.png": "/static/media/bootstrap.b9d40f1d49fa0fc592b4.png",
     "index.html": "/index.html",
     "main.3c741650.css.map": "/static/css/main.3c741650.css.map",
-    "main.9170fd7f.js.map": "/static/js/main.9170fd7f.js.map",
+    "main.16ccbaf2.js.map": "/static/js/main.16ccbaf2.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c741650.css",
-    "static/js/main.9170fd7f.js"
+    "static/js/main.16ccbaf2.js"
   ]
 }
