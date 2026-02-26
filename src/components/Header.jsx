@@ -1,40 +1,47 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 
 const Header = () => {
-  const handleMenuClick = () => {
-    document.querySelector(".navbar").classList.add("navleft");
-   document.querySelector(".fa-bars").classList.add("dotlose")
-    document.querySelector(".fa-xmark").classList.add("crosshow")
-  };
+  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  const handleCrossClick = () => {
-    document.querySelector(".navbar").classList.remove("navleft");
-    document.querySelector(".fa-xmark").classList.remove("crosshow")
-    document.querySelector(".fa-bars").classList.remove("dotlose")
-  };
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 40);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
-  const handleNavbarClick = () => {
-   document.querySelector(".navbar").classList.remove("navleft");
-  document.querySelector(".fa-xmark").classList.remove("crosshow")
-  document.querySelector(".fa-bars").classList.remove("dotlose")
-  };
+  const openNav = () => setOpen(true);
+  const closeNav = () => setOpen(false);
 
   return (
-    <header className="header">
-      <a href="#" className="logo">Portfo<span id="io">lio.</span></a>
-      <FiMenu className="fa-solid fa-bars fa-xl" onClick={handleMenuClick} />
-      <FiX className="fa-solid fa-xmark" onClick={handleCrossClick} />
-      <nav className="navbar" onClick={handleNavbarClick}>
+    <header className={`header${scrolled ? ' scrolled' : ''}`}>
+      <a href="#home" className="logo">
+        Portfo<span>lio.</span>
+      </a>
+
+      <FiMenu className={`fa-solid fa-bars fa-xl${open ? ' dotlose' : ''}`} onClick={openNav} />
+      <FiX className={`fa-solid fa-xmark${open ? ' crosshow' : ''}`} onClick={closeNav} />
+
+      <nav className={`navbar${open ? ' navleft' : ''}`} onClick={closeNav}>
         <a href="#home" style={{ '--i': 1 }}>Home</a>
         <a href="#about" style={{ '--i': 2 }}>About</a>
         <a href="#skill" style={{ '--i': 3 }}>Skills</a>
-        <a href="#project" style={{ '--i': 4 }}>Projects</a>
-        <a href="#Contact" style={{ '--i': 5 }}>Contact</a>
-        <a href={require("./../Assets/Dipanshu verma.pdf")} target="_blank" style={{ '--i': 6 }}>Resume</a>
+        <a href="#experience" style={{ '--i': 4 }}>Experience</a>
+        <a href="#project" style={{ '--i': 5 }}>Projects</a>
+        <a href="#Contact" style={{ '--i': 6 }}>Contact</a>
+        <a
+          href={require('./../Assets/Dipanshu verma.pdf')}
+          target="_blank"
+          rel="noreferrer"
+          className="resume-link"
+          style={{ '--i': 7 }}
+        >
+          Resume ↗
+        </a>
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

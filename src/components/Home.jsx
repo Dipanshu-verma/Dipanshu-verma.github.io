@@ -1,46 +1,72 @@
-// components/Home.js
 import React, { useEffect } from 'react';
-import img from '../Assets/aboutpic.png';
 import Typed from 'typed.js';
 import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 
 const Home = () => {
   useEffect(() => {
     const typed = new Typed('.text', {
-      strings: ['Full Stack Web Developer', 'Problem Solver', 'Continuous Learner'],
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 1000,
+      strings: [
+        'Full Stack Developer',
+        'React Specialist',
+        'Node.js Engineer',
+        'Problem Solver',
+      ],
+      typeSpeed: 70,
+      backSpeed: 40,
+      backDelay: 1800,
       loop: true,
     });
-
-    return () => {
-      typed.destroy();
-    };
+    return () => typed.destroy();
   }, []);
 
   return (
-    <section id='home' className="home">
-      <div className="home-content">
-        <h3>Hello, It's Me</h3>
-        <h1 className="name">Dipanshu Verma</h1>
-        <h3>and I'm <span className="text"></span></h3>
+    <section id="home" className="home home--no-img">
+
+      {/* Floating ambient orbs */}
+      <div className="hero-orb hero-orb--1" />
+      <div className="hero-orb hero-orb--2" />
+      <div className="hero-orb hero-orb--3" />
+
+      <div className="home-content home-content--center">
+
+        <span className="greeting">👋 Hello, I'm</span>
+
+        <h1>
+          Dipanshu <span className="name-highlight">Verma</span>
+        </h1>
+
+        <p className="typed-line">
+          I'm a <span className="text" />
+        </p>
+
+        <p className="hero-bio">
+          Passionate about building clean, performant web apps with modern tech.
+          I bridge beautiful UIs with solid backend logic to ship real-world products that scale.
+        </p>
+
         <div className="home-sci">
-          <a href="https://www.linkedin.com/in/dipanshu-verma-3875a7246/" target="_blank" style={{ '--i': 7 }}><FaLinkedin /></a>
-          <a href="https://github.com/Dipanshu-verma" target="_blank" style={{ '--i': 8 }}><FaGithub /></a>
-          <a href="mailto:vermadipanshu444@gmail.com" style={{ '--i': 9 }}><FaEnvelope /></a>
-          <a href="https://www.instagram.com/_dhruv_its/" target="_blank" style={{ '--i': 10 }}><FaInstagram /></a>
-          <a href="https://wa.me/7414824859" target="_blank" style={{ '--i': 11 }}><FaWhatsapp /></a>
+          <a href="https://www.linkedin.com/in/dipanshu-verma-3875a7246/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
+          <a href="https://github.com/Dipanshu-verma" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
+          <a href="mailto:vermadipanshu444@gmail.com" aria-label="Email"><FaEnvelope /></a>
+          <a href="https://www.instagram.com/_dhruv_its/" target="_blank" rel="noreferrer" aria-label="Instagram"><FaInstagram /></a>
+          <a href="https://wa.me/7414824859" target="_blank" rel="noreferrer" aria-label="WhatsApp"><FaWhatsapp /></a>
         </div>
-        <a href="#about" className="btn-box">More About Me</a>
+
+        <div className="hero-btns">
+          <a href="#project" className="btn-primary">🚀 View My Work</a>
+          <a href="#Contact" className="btn-ghost">💬 Get In Touch</a>
+        </div>
+
       </div>
-      <div className="outer">
-        <span></span>
-        <span></span>
-        <img className="img" src={img} alt="sweta" />
+
+      {/* Scroll indicator */}
+      <div className="hero-scroll">
+        <span>Scroll</span>
+        <div className="hero-scroll-line" />
       </div>
+
     </section>
   );
-}
+};
 
 export default Home;

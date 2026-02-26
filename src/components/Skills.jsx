@@ -1,81 +1,78 @@
 import React from 'react';
-import img1 from './../Assets/html.png';
-import img2 from './../Assets/css.png';
-import img3 from './../Assets/javascript.png';
-import img4 from './../Assets/java.png';
-import img5 from './../Assets/react.png';
-import img6 from './../Assets/redux.png';
-import img7 from './../Assets/chakra-ui.png';
-import img8 from './../Assets/mongodb.png';
-import img9 from './../Assets/node-js.png';
-import img10 from './../Assets/github_git_hub_logo_icon_132878.png';
-import img11 from './../Assets/bootstrap.png';
-import img12 from './../Assets/express.png';
+import useReveal from './useReveal';
 
-const skillsData = [
+const skillCategories = [
   {
-    title: 'HTML',
-    image: img1,
+    label: 'Frontend',
+    emoji: '🎨',
+    color: '#61dafb',
+    skills: ['JavaScript', 'React', 'Next.js', 'Redux', 'Tailwind CSS', 'Material-UI'],
   },
   {
-    title: 'CSS',
-    image: img2,
+    label: 'Backend',
+    emoji: '⚙️',
+    color: '#68a063',
+    skills: ['Node.js', 'Express.js', 'Nest.js', 'TypeScript', 'REST APIs', 'GraphQL', 'Socket.io', 'JWT / OAuth'],
   },
   {
-    title: 'JavaScript',
-    image: img3,
+    label: 'Database',
+    emoji: '🗄️',
+    color: '#47a248',
+    skills: ['MongoDB', 'MySQL', 'Redis', 'Sequelize'],
   },
   {
-    title: 'Java',
-    image: img4,
+    label: 'Cloud / DevOps',
+    emoji: '☁️',
+    color: '#f89820',
+    skills: ['AWS (EC2, S3)', 'Docker', 'Kubernetes', 'CI/CD', 'GitHub Actions', 'Nginx', 'PM2'],
   },
   {
-    title: 'React.js',
-    image: img5,
-  },
-  {
-    title: 'Redux',
-    image: img6,
-  },
-  {
-    title: 'Chakra UI',
-    image: img7,
-  },
-  {
-    title: 'Mongo DB',
-    image: img8,
-  },
-  {
-    title: 'Node.js',
-    image: img9,
-  },
-  {
-    title: 'Github',
-    image: img10,
-  },
-  {
-    title: 'Bootstrap',
-    image: img11,
-  },
-  {
-    title: 'Express.js',
-    image: img12,
+    label: 'Other',
+    emoji: '🔧',
+    color: '#a855f7',
+    skills: ['Git', 'Firebase', 'Razorpay', 'Microservices', 'Java', 'Agile'],
   },
 ];
+
 const Skills = () => {
+  const ref = useReveal();
+
   return (
-    <section className="skill-list" id="skill">
-      <h1 className="subtitle">My <span>Skills</span></h1>
-      <div className="skills-container">
-        {skillsData.map((skill, index) => (
-          <div className="skill" key={index}>
-            <img src={skill.image} alt={skill.title} />
-            <h3>{skill.title}</h3>
+    <section className="skills-section" id="skill" ref={ref}>
+
+      <div className="skills-heading reveal">
+        <span className="s-label">Tech Stack</span>
+        <h2 className="s-title">My <span>Skills</span></h2>
+        <div className="s-line" />
+      </div>
+
+      <div className="skills-compact-grid">
+        {skillCategories.map((cat, i) => (
+          <div
+            className="skill-row reveal"
+            key={cat.label}
+            style={{ '--cat-color': cat.color, transitionDelay: `${i * 0.08}s` }}
+          >
+            {/* Category label */}
+            <div className="skill-row-label">
+              <span className="skill-row-emoji">{cat.emoji}</span>
+              <span className="skill-row-name">{cat.label}</span>
+            </div>
+
+            {/* Skill pills */}
+            <div className="skill-pills">
+              {cat.skills.map((skill) => (
+                <span className="skill-pill" key={skill}>
+                  {skill}
+                </span>
+              ))}
+            </div>
           </div>
         ))}
       </div>
+
     </section>
   );
-}
+};
 
 export default Skills;
