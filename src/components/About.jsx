@@ -48,11 +48,11 @@ const About = () => {
         <p className="about-role">Full Stack Developer • Tech Lead</p>
 
         <p>
-          I'm <strong>Dipanshu Verma</strong>, a Full Stack Developer with 3+ years of experience
+          I'm <strong>Dipanshu Verma</strong>, a Full Stack Developer with 4 years of experience
           building production-grade applications that handle real users and real money. I've built
           e-commerce platforms serving 50+ vendors, healthcare systems with ABDM &amp; FHIR compliance,
           MLM platforms operating across Nigeria and Ghana, and high-frequency trading applications
-          processing 10k+ daily transactions.
+          processing 5k+ daily transactions.
         </p>
         <p>
           My stack revolves around React, Next.js, Node.js, TypeScript, and MySQL — but I go deeper
@@ -74,7 +74,7 @@ const About = () => {
             <span className="stat-label">Products Built</span>
           </div>
           <div className="stat-box">
-            <span className="stat-num">3+</span>
+            <span className="stat-num">4</span>
             <span className="stat-label">Years Exp.</span>
           </div>
           <div className="stat-box">
@@ -86,7 +86,7 @@ const About = () => {
             <span className="stat-label">Technologies</span>
           </div>
           <div className="stat-box">
-            <span className="stat-num">5k+</span>
+            <span className="stat-num">2k+</span>
             <span className="stat-label">Users Served</span>
           </div>
         </div>

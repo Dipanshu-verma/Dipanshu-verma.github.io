@@ -21,7 +21,7 @@ const experiences = [
         duration: 'Jun 2023 – Jun 2024',
         type: 'Full-time',
         description:
-            'Developed a high-frequency trading platform integrating multiple broker APIs for real-time market data processing, handling 10k+ daily transactions and serving 5k+ active users. Implemented Redis-based rate limiting and caching, reducing API response time by 35% and blocking 2k+ malicious requests daily. Built real-time WebSocket streaming for live market data updates supporting 500+ concurrent connections with sub-second latency.',
+            'Developed a high-frequency trading platform integrating multiple broker APIs for real-time market data processing, handling 5k+ daily transactions and serving 2k+ active users. Implemented Redis-based rate limiting and caching, reducing API response time by 35% and blocking 2k+ malicious requests daily. Built real-time WebSocket streaming for live market data updates supporting 500+ concurrent connections with sub-second latency.',
         tech: ['React', 'Node.js', 'MySQL', 'Redis', 'Socket.io'],
         accent: '#a855f7',
         badgeBg: 'rgba(168,85,247,0.12)',
